@@ -1,6 +1,7 @@
 ### Import OpenCV for window display and mouse callbacks
 import cv2
 
+## EDIT
 ### Load the image from disk
 image = cv2.imread("/home/imyunzhu/segment-anything-2/code/elephant.png")
 

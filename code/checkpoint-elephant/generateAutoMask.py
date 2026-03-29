@@ -53,6 +53,7 @@ def show_anns(anns, borders=True):
     ### Render overlay on image
     ax.imshow(img)
 
+## EDIT
 ### Load image from disk
 image = cv2.imread("code/elephant.png")
 ### Convert BGR to RGB for correct color display in Matplotlib
@@ -73,7 +74,7 @@ from sam2.build_sam import build_sam2
 from sam2.automatic_mask_generator import SAM2AutomaticMaskGenerator
 
 ### Select checkpoint to use
-sam2_checkpoint = "checkpoints/sam2.1_hiera_large.pt"  # Download in installation section
+sam2_checkpoint = "/home/imyunzhu/segment-anything-2/checkpoints/sam2.1_hiera_large.pt"  # Download in installation section
 ### Select model configuration from SAM2 repository
 model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"  # Part of SAM2 repository
 
